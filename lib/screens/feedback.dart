@@ -25,7 +25,7 @@ class AppFeedback extends StatelessWidget {
                 child: Padding(
                   padding: EdgeInsets.all(size.width - size.width * 93 / 100),
                   child: Text(
-                    "hungnm@devera.vn",
+                    "nghinguyenhuu.work@gmail.com",
                     style: TextStyle(
                       fontFamily: 'Audiowide',
                       color: Colors.white,

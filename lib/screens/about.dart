@@ -66,7 +66,7 @@ class AboutApp extends StatelessWidget {
                           color: Colors.white,
                         )),
                     Text(
-                      "Devera",
+                      "NghiNguyen",
                       style: TextStyle(
                         fontSize: size.height - size.height * 95 / 100,
                         fontFamily: "Audiowide",
