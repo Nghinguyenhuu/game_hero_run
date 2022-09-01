@@ -82,7 +82,7 @@ flutter:
     - assets/images/Rino/
     - assets/images/Chicken/
     - assets/images/Bat/
-    - assets/images/bullet/
+    - assets/images/Bullet/
     - assets/audio/
 
   fonts:
