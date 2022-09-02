@@ -42,10 +42,10 @@ class Dust extends SpriteAnimationComponent {
     height = width = size.y / 8;
     if (animation == _runDustAnimation) {
       x = sz.x - sz.x * 82.5 / 100;
-      y = sz.y - sz.y * 22.5 / 100;
+      y = sz.y - sz.y * 40 / 100;
     } else if (animation == _jumpDustAnimation) {
       x = sz.x - sz.x * 80.5 / 100;
-      y = sz.y - sz.y * 21.5 / 100;
+      y = sz.y - sz.y * 39 / 100;
     }
     super.onGameResize(size);
   }
@@ -54,10 +54,10 @@ class Dust extends SpriteAnimationComponent {
   void update(double dt) {
     if (animation == _runDustAnimation) {
       x = sz.x - sz.x * 82.5 / 100;
-      y = sz.y - sz.y * 22.5 / 100;
+      y = sz.y - sz.y * 40 / 100;
     } else if (animation == _jumpDustAnimation) {
       x = sz.x - sz.x * 80.5 / 100;
-      y = sz.y - sz.y * 21.5 / 100;
+      y = sz.y - sz.y * 39.5 / 100;
     }
     super.update(dt);
   }

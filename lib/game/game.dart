@@ -40,13 +40,18 @@ class TinyGame extends FlameGame
     parallaxComponent = await loadParallaxComponent(
       [
         // Parallax Forest Background
-        ParallaxImageData('Background/layer_1.png'),
-        ParallaxImageData('Background/layer_2.png'),
-        ParallaxImageData('Background/layer_3.png'),
-        ParallaxImageData('Background/layer_4.png'),
-        ParallaxImageData('Background/layer_5.png'),
-        ParallaxImageData('Background/layer_6.png'),
-        ParallaxImageData('Background/layer_7.png'),
+        ParallaxImageData('Background/Layer_0011_0.png'),
+        ParallaxImageData('Background/Layer_0010_1.png'),
+        ParallaxImageData('Background/Layer_0009_2.png'),
+        ParallaxImageData('Background/Layer_0008_3.png'),
+        ParallaxImageData('Background/Layer_0007_Lights.png'),
+        ParallaxImageData('Background/Layer_0006_4.png'),
+        ParallaxImageData('Background/Layer_0005_5.png'),
+        ParallaxImageData('Background/Layer_0004_Lights.png'),
+        ParallaxImageData('Background/Layer_0003_6.png'),
+        ParallaxImageData('Background/Layer_0002_7.png'),
+        ParallaxImageData('Background/Layer_0001_8.png'),
+        ParallaxImageData('Background/Layer_0000_9.png'),
       ],
       baseVelocity: Vector2(currentSpeed, 0), // Map Move Speed
       velocityMultiplierDelta: Vector2(1.8, 1.0),

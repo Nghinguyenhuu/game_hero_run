@@ -30,7 +30,7 @@ class MainMenu extends StatelessWidget {
             padding: EdgeInsets.all(size.width - size.width * 93 / 100),
             child: Column(mainAxisSize: MainAxisSize.min, children: [
               Text(
-                "Hero Runner",
+                "Tiny Runner",
                 style: TextStyle(
                   fontSize: size.height - size.height * 90 / 100,
                   fontFamily: "Audiowide",

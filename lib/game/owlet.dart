@@ -93,7 +93,7 @@ class Owlet extends SpriteAnimationComponent
     speedY = initialV = -200 - (size.y); // Equation to get initial velocity
     height = width = size.y / 7; //        1/7 of the screen's height
     x = size.x - size.x * 81 / 100;
-    y = size.y - size.y * 24 / 100;
+    y = size.y - size.y * 40 / 100;
     skyToGround = y;
     super.onGameResize(size);
   }

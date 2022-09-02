@@ -89,7 +89,7 @@ class Enemy extends SpriteAnimationComponent
     height = width = size.y /
         8; //        1/8 of the screen's height - matching that of owlet's height
     x = size.x + width;
-    y = size.y - size.y * 22 / 100;
+    y = size.y - size.y * 40 / 100;
 
     if (enemyData!.canFly && _random.nextBool()) {
       y -= height;
